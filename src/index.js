@@ -17,7 +17,7 @@ class App extends Component {
             selectedVideo: null
         };
 
-        YTSearch({key: API_KEY, term: 'Eason Chan'}, (videos)=>
+        YTSearch({key: API_KEY, term: 'yang qian hua'}, (videos)=>
                 this.setState({
                     videos: videos,
                     selectedVideo: videos[0]
